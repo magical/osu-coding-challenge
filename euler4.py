@@ -1,4 +1,5 @@
 # find the largest palindromic number made from the product of two 3-digit numbers
+# this actually gives the wrong answer! see if you can spot the bug
 
 numbers = list(range(100, 1000))
 
@@ -10,4 +11,3 @@ def gen():
                 yield n, x, y
 
 print(max(gen()))
-# 99999
