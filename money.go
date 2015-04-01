@@ -10,7 +10,7 @@ func main() {
 		fmt.Printf("Try again: ")
 		n, err = fmt.Scanf("$%d.%02d", &dollars, &cents)
 	}
-        _ = n
+	_ = n
 	cents = dollars*100 + cents
 
 	var coins = []int{25, 10, 5, 1}
